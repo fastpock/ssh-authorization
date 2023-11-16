@@ -17,3 +17,5 @@
 Раскомментировать строку AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2
 ### 4. Перезапустить сервис sshd
 `sudo systemctl restart sshd`
+
+
