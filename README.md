@@ -15,7 +15,7 @@
 ### 3. Авторизация по ключу
 Сначала найдите строку PubkeyAuthentication и замените её значение на yes.
 Раскомментировать строку AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2
+Затем замените значения параметров ChallengeResponseAuthentication, PasswordAuthentication, UsePAM на no.
 ### 4. Перезапустить сервис sshd
 `sudo systemctl restart sshd`
-
 
